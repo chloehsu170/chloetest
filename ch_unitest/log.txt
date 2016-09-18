@@ -1,0 +1,12 @@
+.C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py:585: DeprecationWarning: use driver.switch_to.alert instead
+  warnings.warn("use driver.switch_to.alert instead", DeprecationWarning)
+.
+----------------------------------------------------------------------
+Ran 2 tests in 33.559s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 53.524s
+
+OK
