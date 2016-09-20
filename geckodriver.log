@@ -6818,3 +6818,335 @@ JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d
 1474197304955	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
 1474197304958	addons.xpi	DEBUG	Notifying XPI shutdown observers
 1474197304962	addons.manager	DEBUG	Async provider shutdown done
+1474379703866	addons.manager	DEBUG	Application has been upgraded
+1474379704189	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1474379704196	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1474379704211	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1474379704219	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1474379704222	addons.manager	DEBUG	Starting provider: XPIProvider
+1474379704224	addons.xpi	DEBUG	startup
+1474379704226	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1474379704277	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474379704278	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474379704278	addons.xpi	INFO	Mapping loop@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474379704280	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1474379704281	addons.xpi	DEBUG	checkForChanges
+1474379704281	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1474379704282	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1474379704282	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1474379704283	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1474379704283	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1474379704283	addons.xpi	DEBUG	New add-on loop@mozilla.org in app-system-defaults
+1474379704283	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1474379704284	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1474379704284	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1474379704284	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1472033405945},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1472033405981},"loop@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","st":1472033406110}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1472033405944}}}
+1474379704298	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\chloe\AppData\Local\Temp\rust_mozprofile.BhvncbbHdvre\extensions.json
+1474379704301	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1474379704372	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704372	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1474379704396	DeferredSave.extensions.json	DEBUG	Starting timer
+1474379704398	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704398	addons.xpi-utils	DEBUG	New add-on loop@mozilla.org installed in app-system-defaults
+1474379704427	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704428	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1474379704441	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704441	addons.xpi-utils	INFO	Hiding the updated system add-ons.
+1474379704462	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474379704473	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.1
+1474379704473	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1474379704473	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704474	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474379704478	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.4
+1474379704478	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1474379704478	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704479	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474379704484	addons.xpi	DEBUG	Calling bootstrap method install on loop@mozilla.org version 1.4.4
+1474379704484	addons.xpi-utils	DEBUG	Make addon app-system-defaults:loop@mozilla.org visible
+1474379704485	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704485	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1474379704485	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704486	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"S83xBl428waD","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1472033405945,"updateDate":1472033405945,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4827,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474379704486	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1474379704486	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"yKqy-VwotFP5","location":"app-system-defaults","version":"1.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1472033405981,"updateDate":1472033405981,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":895301,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474379704486	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1474379704487	addons.xpi	DEBUG	Updating XPIState for {"id":"loop@mozilla.org","syncGUID":"Ni2whJU7aCqO","location":"app-system-defaults","version":"1.4.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Hello","description":"Web sharing for Firefox","creator":"Mozilla","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","installDate":1472033406110,"updateDate":1472033406110,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4313945,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0a1","maxVersion":"48.*"},{"id":"xpcshell@tests.mozilla.org","minVersion":"0","maxVersion":"10"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474379704487	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1474379704487	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"enWLeHrlSjf6","location":"app-global","version":"48.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1472033405944,"updateDate":1472033405944,"applyBackgroundUpdates":1,"skinnable":true,"size":21905,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.0.2"}],"targetPlatforms":[],"seen":true}
+1474379704487	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1474379704488	DeferredSave.extensions.json	DEBUG	Save changes
+1474379704488	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1474379704488	addons.xpi-utils	DEBUG	Updating add-on states
+1474379704489	addons.xpi-utils	DEBUG	Writing add-ons list
+1474379704492	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474379704493	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1474379704493	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474379704494	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1474379704494	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474379704495	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1474379704522	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1474379704522	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1474379704523	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1474379704523	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1474379704523	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1474379704524	addons.manager	DEBUG	Starting provider: GMPProvider
+1474379704534	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1474379704535	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1474379704535	addons.manager	DEBUG	Starting provider: PluginProvider
+1474379704535	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1474379704536	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1474379704536	addons.manager	DEBUG	Completed startup sequence
+1474379705852	Marionette	INFO	Listening on port 53663
+1474379707242	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1474379707242	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1474379707242	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1474379707955	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1474379707956	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1474379707957	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1474379707961	DeferredSave.extensions.json	DEBUG	Starting write
+1474379709097	DeferredSave.extensions.json	DEBUG	Write succeeded
+1474379709097	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1474379710921	Marionette	INFO	startBrowser af7be9e9-7d93-4c0d-ac02-6fc7e3deb29f
+1474379710939	Marionette	INFO	sendAsync af7be9e9-7d93-4c0d-ac02-6fc7e3deb29f
+1474379712456	Marionette	INFO	sendAsync af7be9e9-7d93-4c0d-ac02-6fc7e3deb29f
+1474379718155	Marionette	INFO	sendAsync af7be9e9-7d93-4c0d-ac02-6fc7e3deb29f
+1474379718180	Marionette	INFO	sendAsync af7be9e9-7d93-4c0d-ac02-6fc7e3deb29f
+1474379770991	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/48.0.2/20160823121617/WINNT_x86-msvc-x64/zh-CN/release-cck-mozillaonline/Windows_NT%2010.0.0.0%20(x64)/MozillaOnline/2016.8/update.xml
+1474379772930	addons.productaddons	INFO	Completed downloading document
+1474379811978	addons.productaddons	INFO	downloadXHR File download. status=200
+1474379811985	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474379813413	addons.productaddons	INFO	downloadXHR File download. status=200
+1474379813416	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474379859332	addons.productaddons	INFO	downloadXHR File download. status=200
+1474379859340	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474380305690	addons.manager	INFO	Skipping background update check
+1474380545713	DeferredSave.extensions.json	DEBUG	Save changes
+1474380545715	DeferredSave.extensions.json	DEBUG	Starting timer
+1474380545739	DeferredSave.extensions.json	DEBUG	Starting write
+1474380545752	DeferredSave.extensions.json	DEBUG	Write succeeded
+1474381333396	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.1
+1474381333396	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.4
+1474381333397	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.4.4
+1474381333564	addons.manager	DEBUG	shutdown
+1474381333564	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1474381333565	addons.xpi	DEBUG	shutdown
+1474381333565	addons.xpi-utils	DEBUG	shutdown
+1474381333566	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1474381333567	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1474381333569	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1474381333569	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1474381333572	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1474381333575	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1474381333579	addons.manager	DEBUG	Async provider shutdown done
+loop@mozilla.org to C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474380829253	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1474380829253	addons.xpi	DEBUG	checkForChanges
+1474380829254	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1474380829255	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1474380829255	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1474380829256	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1474380829256	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1474380829256	addons.xpi	DEBUG	New add-on loop@mozilla.org in app-system-defaults
+1474380829256	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1474380829257	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1474380829257	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1474380829258	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1472033405945},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1472033405981},"loop@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","st":1472033406110}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1472033405944}}}
+1474380829268	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\chloe\AppData\Local\Temp\rust_mozprofile.RIMnAEIbI9S2\extensions.json
+1474380829270	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1474380829279	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829280	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1474380829285	DeferredSave.extensions.json	DEBUG	Starting timer
+1474380829286	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829286	addons.xpi-utils	DEBUG	New add-on loop@mozilla.org installed in app-system-defaults
+1474380829324	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829325	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1474380829333	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829333	addons.xpi-utils	INFO	Hiding the updated system add-ons.
+1474380829339	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474380829351	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.1
+1474380829351	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1474380829352	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829352	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474380829356	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.4
+1474380829356	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1474380829356	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829357	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474380829363	addons.xpi	DEBUG	Calling bootstrap method install on loop@mozilla.org version 1.4.4
+1474380829363	addons.xpi-utils	DEBUG	Make addon app-system-defaults:loop@mozilla.org visible
+1474380829364	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829364	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1474380829365	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829366	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"JAdxqSjPGGct","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1472033405945,"updateDate":1472033405945,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4827,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474380829366	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1474380829366	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"jNoqriKGXMDq","location":"app-system-defaults","version":"1.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1472033405981,"updateDate":1472033405981,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":895301,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474380829366	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1474380829367	addons.xpi	DEBUG	Updating XPIState for {"id":"loop@mozilla.org","syncGUID":"dTKJKU_FplPa","location":"app-system-defaults","version":"1.4.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Hello","description":"Web sharing for Firefox","creator":"Mozilla","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","installDate":1472033406110,"updateDate":1472033406110,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4313945,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0a1","maxVersion":"48.*"},{"id":"xpcshell@tests.mozilla.org","minVersion":"0","maxVersion":"10"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474380829367	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1474380829367	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"-qGLFbqfLo8c","location":"app-global","version":"48.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1472033405944,"updateDate":1472033405944,"applyBackgroundUpdates":1,"skinnable":true,"size":21905,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.0.2"}],"targetPlatforms":[],"seen":true}
+1474380829367	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1474380829368	DeferredSave.extensions.json	DEBUG	Save changes
+1474380829368	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1474380829368	addons.xpi-utils	DEBUG	Updating add-on states
+1474380829369	addons.xpi-utils	DEBUG	Writing add-ons list
+1474380829372	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474380829373	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1474380829373	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474380829374	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1474380829375	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474380829375	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1474380829398	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1474380829399	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1474380829399	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1474380829399	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1474380829399	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1474380829400	addons.manager	DEBUG	Starting provider: GMPProvider
+1474380829407	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1474380829407	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1474380829407	addons.manager	DEBUG	Starting provider: PluginProvider
+1474380829407	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1474380829407	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1474380829408	addons.manager	DEBUG	Completed startup sequence
+1474380830107	Marionette	INFO	Listening on port 54748
+1474380831310	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1474380831310	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1474380831311	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1474380831395	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1474380831396	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1474380831396	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1474380831399	DeferredSave.extensions.json	DEBUG	Starting write
+1474380831779	DeferredSave.extensions.json	DEBUG	Write succeeded
+1474380831780	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1474380832871	Marionette	INFO	startBrowser 92ee8fc7-5ef0-4b16-a92e-a144bfa10658
+1474380832885	Marionette	INFO	sendAsync 92ee8fc7-5ef0-4b16-a92e-a144bfa10658
+1474380833453	Marionette	INFO	sendAsync 92ee8fc7-5ef0-4b16-a92e-a144bfa10658
+1474380892883	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/48.0.2/20160823121617/WINNT_x86-msvc-x64/zh-CN/release-cck-mozillaonline/Windows_NT%2010.0.0.0%20(x64)/MozillaOnline/2016.8/update.xml
+1474380895031	addons.productaddons	INFO	Completed downloading document
+1474380906355	addons.productaddons	INFO	downloadXHR File download. status=200
+1474380906359	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474380908032	addons.productaddons	INFO	downloadXHR File download. status=200
+1474380908035	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474381130006	addons.productaddons	INFO	downloadXHR File download. status=200
+1474381130017	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474381316508	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.1
+1474381316509	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.4
+1474381316509	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.4.4
+1474381316710	addons.manager	DEBUG	shutdown
+1474381316711	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1474381316711	addons.xpi	DEBUG	shutdown
+1474381316711	addons.xpi-utils	DEBUG	shutdown
+1474381316712	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1474381316712	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1474381316715	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1474381316715	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1474381316717	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1474381316719	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1474381316724	addons.manager	DEBUG	Async provider shutdown done
+x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1474381051266	addons.xpi	DEBUG	checkForChanges
+1474381051267	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1474381051268	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1474381051269	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1474381051270	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1474381051270	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1474381051271	addons.xpi	DEBUG	New add-on loop@mozilla.org in app-system-defaults
+1474381051271	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1474381051272	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1474381051272	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1474381051273	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-system-defaults":{"e10srollout@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1472033405945},"firefox@getpocket.com":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1472033405981},"loop@mozilla.org":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","st":1472033406110}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1472033405944}}}
+1474381051292	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\chloe\AppData\Local\Temp\rust_mozprofile.MP2r8IMvZmvu\extensions.json
+1474381051297	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1474381051318	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051319	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1474381051331	DeferredSave.extensions.json	DEBUG	Starting timer
+1474381051333	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051333	addons.xpi-utils	DEBUG	New add-on loop@mozilla.org installed in app-system-defaults
+1474381051359	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051360	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1474381051365	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051365	addons.xpi-utils	INFO	Hiding the updated system add-ons.
+1474381051374	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474381051392	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.1
+1474381051394	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1474381051394	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051395	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474381051401	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.4
+1474381051401	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1474381051402	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051403	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474381051412	addons.xpi	DEBUG	Calling bootstrap method install on loop@mozilla.org version 1.4.4
+1474381051412	addons.xpi-utils	DEBUG	Make addon app-system-defaults:loop@mozilla.org visible
+1474381051413	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051413	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1474381051413	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051414	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"IFJfoBl3qk-h","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1472033405945,"updateDate":1472033405945,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4827,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474381051414	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1474381051415	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"LYCHu7uIWYTS","location":"app-system-defaults","version":"1.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1472033405981,"updateDate":1472033405981,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":895301,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474381051415	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1474381051415	addons.xpi	DEBUG	Updating XPIState for {"id":"loop@mozilla.org","syncGUID":"351K8gtd2IWU","location":"app-system-defaults","version":"1.4.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Hello","description":"Web sharing for Firefox","creator":"Mozilla","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi","installDate":1472033406110,"updateDate":1472033406110,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":4313945,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"46.0a1","maxVersion":"48.*"},{"id":"xpcshell@tests.mozilla.org","minVersion":"0","maxVersion":"10"}],"targetPlatforms":[],"multiprocessCompatible":false,"seen":true}
+1474381051415	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1474381051416	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"x0KNwBIsYpe7","location":"app-global","version":"48.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1472033405944,"updateDate":1472033405944,"applyBackgroundUpdates":1,"skinnable":true,"size":21905,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"48.0.2","maxVersion":"48.0.2"}],"targetPlatforms":[],"seen":true}
+1474381051416	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1474381051417	DeferredSave.extensions.json	DEBUG	Save changes
+1474381051417	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1474381051417	addons.xpi-utils	DEBUG	Updating add-on states
+1474381051419	addons.xpi-utils	DEBUG	Writing add-ons list
+1474381051423	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1474381051424	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.1
+1474381051425	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1474381051426	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.4
+1474381051427	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1474381051428	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.4.4
+1474381051456	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1474381051457	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1474381051457	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1474381051457	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1474381051458	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1474381051458	addons.manager	DEBUG	Starting provider: GMPProvider
+1474381051467	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1474381051468	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1474381051468	addons.manager	DEBUG	Starting provider: PluginProvider
+1474381051468	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1474381051468	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1474381051469	addons.manager	DEBUG	Completed startup sequence
+1474381052197	Marionette	INFO	Listening on port 54837
+1474381053111	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1474381053111	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1474381053111	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1474381053168	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1474381053168	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1474381053168	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1474381053170	DeferredSave.extensions.json	DEBUG	Starting write
+1474381053683	DeferredSave.extensions.json	DEBUG	Write succeeded
+1474381053683	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1474381054831	Marionette	INFO	startBrowser 0c50b3d5-4ce0-4d12-8c66-72874c456f39
+1474381054847	Marionette	INFO	sendAsync 0c50b3d5-4ce0-4d12-8c66-72874c456f39
+1474381055416	Marionette	INFO	sendAsync 0c50b3d5-4ce0-4d12-8c66-72874c456f39
+1474381056068	Marionette	INFO	sendAsync 0c50b3d5-4ce0-4d12-8c66-72874c456f39
+JavaScript error: resource://gre/modules/debug.js, line 50: TypeError: access to strict mode caller function is censored
+1474381062281	Marionette	INFO	sendAsync 0c50b3d5-4ce0-4d12-8c66-72874c456f39
+1474381062291	Marionette	INFO	sendAsync 0c50b3d5-4ce0-4d12-8c66-72874c456f39
+1474381114853	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/48.0.2/20160823121617/WINNT_x86-msvc-x64/zh-CN/release-cck-mozillaonline/Windows_NT%2010.0.0.0%20(x64)/MozillaOnline/2016.8/update.xml
+1474381117049	addons.productaddons	INFO	Completed downloading document
+1474381165629	addons.productaddons	INFO	downloadXHR File download. status=200
+1474381165646	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474381166906	addons.productaddons	INFO	downloadXHR File download. status=200
+1474381166912	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474381221875	addons.productaddons	INFO	downloadXHR File download. status=200
+1474381221886	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\chloe\AppData\Local\Temp\tmpaddon
+1474381336061	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.1
+1474381336062	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.4
+1474381336062	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.4.4
+1474381336298	addons.manager	DEBUG	shutdown
+1474381336299	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1474381336299	addons.xpi	DEBUG	shutdown
+1474381336300	addons.xpi-utils	DEBUG	shutdown
+1474381336302	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1474381336303	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1474381336306	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1474381336307	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1474381336312	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1474381336318	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1474381336323	addons.manager	DEBUG	Async provider shutdown done
