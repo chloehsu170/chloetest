@@ -11,13 +11,13 @@ caps = DesiredCapabilities.FIREFOX
 caps["marionette"] = True
 caps["binary"] = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
 
-driver = webdriver.Firefox(capabilities=caps)
+driver = webdriver.Firefox(capabilities=capss)
 time.sleep(2)'''
-driver =webdriver.Edge()
+driver = webdriver.Chrome()
 driver.get("http://www.baidu.com")
 time.sleep(1)
 driver.find_element_by_xpath(".//*[@id='u1']/a[8]").click()
-time.sleep(1)
+time.sleep(2)
 driver.find_element_by_link_text("搜索设置").click()
 #driver.find_element_by_xpath(".//*[@id='wrapper']/div[5]/a[1]")
 time.sleep(2)
@@ -26,7 +26,7 @@ driver.find_element_by_xpath(".//*[@id='gxszButton']/a[1]").click()
 time.sleep(2)
 alert = driver.switch_to_alert()
 alert.accept()
-print(alert.text)
+print alert.text
 time.sleep(2)
 driver.close()
 
