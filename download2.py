@@ -4,8 +4,8 @@ caps=DesiredCapabilities.FIREFOX
 caps["marionette"]=True
 caps["binary"] ="C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"
 fp = webdriver.FirefoxProfile()
-fp.set_preference("brower.download.folderlist",1)
-fp.set_preference("brower.download.manager.showWhenStaring",False)
+fp.set_preference("browser.download.folderList",1)
+fp.set_preference("browser.download.manager.showWhenStaring",False)
 fp.set_preference("browser.helperApps.neverAsk.saveToDisk","application/x-gzip")
 browser = webdriver.Firefox(firefox_profile=fp,capabilities=caps)
 browser.implicitly_wait(5)
