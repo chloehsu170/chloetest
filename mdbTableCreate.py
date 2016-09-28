@@ -1,7 +1,8 @@
-import MySQLdb as mdb
+# import MySQLdb as mdb
+import _mysql
 import sys
 
-con = mdb.connect('192.168.32.128', 'chloe','abcd1234', 'testdb');
+con = _mysql.connect('192.168.32.128', 'chloe','abcd1234', 'testdb');
 
 with con:
     cur = con.cursor()
