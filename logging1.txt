@@ -1,0 +1,5 @@
+INFO:root:n = 0
+Traceback (most recent call last):
+  File "errLogging.py", line 6, in <module>
+    print 10 / s
+ZeroDivisionError: integer division or modulo by zero

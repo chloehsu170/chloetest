@@ -7,24 +7,22 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 
-class FfSeleniumIde(unittest.TestCase):
+class SpmLogin(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Ie()
         self.driver.implicitly_wait(30)
-        self.base_url = "https://www.baidu.com/"
+        self.base_url = "http://10.10.10.46:8080/"
         self.verificationErrors = []
         self.accept_next_alert = True
-
     
-    def test_ff_selenium_ide(self):
+    def test_spm_login(self):
         driver = self.driver
-        driver.get(self.base_url + "/")
-        driver.find_element_by_id("kwss").click()
-        driver.find_element_by_id("kw").clear()
-        driver.find_element_by_id("kw").send_keys("selenium")
-        driver.find_element_by_css_selector("b").click()
-        driver.find_element_by_id("su").click()
-        driver.find_element_by_css_selector("font").click()
+        driver.get(self.base_url + "/sse-spm/sys/user/login.html")
+        driver.find_element_by_id("userName").clear()
+        driver.find_element_by_id("userName").send_keys("xuyanwen")
+        driver.find_element_by_id("password").clear()
+        driver.find_element_by_id("password").send_keys("pass")
+        driver.find_element_by_id("LoginBtn").click()
     
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
