@@ -13,6 +13,7 @@ time.sleep(2)
 #driver = webdriver.Chrome()
 driver.get("https://www.baidu.com")
 time.sleep(2)
+
 currentWindow = driver.current_window_handle
 driver.find_element_by_xpath(".//*[@id='u1']/a[7]").click()
 time.sleep(3)
