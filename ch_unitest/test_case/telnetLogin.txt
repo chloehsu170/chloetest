@@ -1,0 +1,14 @@
+ 
+Last login: Sat Oct  1 10:33:07 from 192.168.226.1
+[chloehsu@192 ~]$ ls -l
+total 32
+drwxr-xr-x. 3 chloehsu chloehsu 4096 Sep 30 22:49 Desktop
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Documents
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Downloads
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Music
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Pictures
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Public
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Templates
+drwxr-xr-x. 2 chloehsu chloehsu 4096 Aug 28 23:52 Videos
+[chloehsu@192 ~]$ exit
+logout
