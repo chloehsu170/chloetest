@@ -13,3 +13,133 @@ OK
 Ran 1 test in 14.997s
 
 OK
+EE
+======================================================================
+ERROR: test_baidu_search (__main__.Baidu)
+百度搜索用例
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\chloetest\ch_unitest\test_case\baidu.py", line 24, in test_baidu_search
+    driver.close()
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 510, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64)
+
+
+======================================================================
+ERROR: test_baidu_set (__main__.Baidu)
+百度设置用例
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\chloetest\ch_unitest\test_case\baidu.py", line 11, in setUp
+    self.driver = webdriver.Chrome()
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 69, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 90, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 177, in start_session
+    response = self.execute(Command.NEW_SESSION, capabilities)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: session not created exception
+from disconnected: received Inspector.detached event
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 29.937s
+
+FAILED (errors=2)
+Telnet(192.168.226.133,23): recv b"\xff\xfd\x18\xff\xfd \xff\xfd#\xff\xfd'"
+Telnet(192.168.226.133,23): IAC DO 24
+Telnet(192.168.226.133,23): IAC DO 32
+Telnet(192.168.226.133,23): IAC DO 35
+Telnet(192.168.226.133,23): IAC DO 39
+Telnet(192.168.226.133,23): recv b'\xff\xfb\x03\xff\xfd\x01\xff\xfd\x1f\xff\xfb\x05\xff\xfd!'
+Telnet(192.168.226.133,23): IAC WILL 3
+Telnet(192.168.226.133,23): IAC DO 1
+Telnet(192.168.226.133,23): IAC DO 31
+Telnet(192.168.226.133,23): IAC WILL 5
+Telnet(192.168.226.133,23): IAC DO 33
+Telnet(192.168.226.133,23): recv b'\xff\xfb\x03'
+Telnet(192.168.226.133,23): IAC WILL 3
+Telnet(192.168.226.133,23): recv b'\xff\xfb\x01\r\nKernel 3.10.0-327.el7.x86_64 on an x86_64\r\n'
+Telnet(192.168.226.133,23): IAC WILL 1
+Telnet(192.168.226.133,23): recv b'192 login: '
+Telnet(192.168.226.133,23): send b'chloehsu\r\n'
+Telnet(192.168.226.133,23): recv b'Password: '
+Telnet(192.168.226.133,23): send b'abcd1234\r\n'
+Telnet(192.168.226.133,23): send b'ifconfig\r\n'
+Telnet(192.168.226.133,23): send b'ls\r\n'
+Telnet(192.168.226.133,23): send b'exit\n'
+Telnet(192.168.226.133,23): recv b'\r\n'
+Telnet(192.168.226.133,23): recv b'Last login: Sat Oct  1 19:57:40 from 192.168.226.1'
+Telnet(192.168.226.133,23): recv b'\r\n'
+Telnet(192.168.226.133,23): recv b'[chloehsu@192 ~]$ '
+Telnet(192.168.226.133,23): recv b'eno16777736: flags=4163<UP,BROADCAST,RUNNING,MULTI'
+Telnet(192.168.226.133,23): recv b'CAST>  mtu 1500\r\n        inet 192.168.226.133  net'
+Telnet(192.168.226.133,23): recv b'mask 255.255.255.0  broadcast 192.168.226.255\r\n   '
+Telnet(192.168.226.133,23): recv b'     inet6 fe80::20c:29ff:fe1f:f9b6  prefixlen 64 '
+Telnet(192.168.226.133,23): recv b' scopeid 0x20<link>\r\n        ether 00:0c:29:1f:f9:'
+Telnet(192.168.226.133,23): recv b'b6  txqueuelen 1000  (Ethernet)\r\n        RX packet'
+Telnet(192.168.226.133,23): recv b's 33337  bytes 3527645 (3.3 MiB)\r\n        RX error'
+Telnet(192.168.226.133,23): recv b's 0  dropped 0  overruns 0  frame 0\r\n        TX pa'
+Telnet(192.168.226.133,23): recv b'ckets 10484  bytes 1561872 (1.4 MiB)\r\n        TX e'
+Telnet(192.168.226.133,23): recv b'rrors 0  dropped 0 overruns 0  carrier 0  collisio'
+Telnet(192.168.226.133,23): recv b'ns 0\r\n\r\nlo: flags=73<UP,LOOPBACK,RUNNING>  mtu 655'
+Telnet(192.168.226.133,23): recv b'36\r\n        inet 127.0.0.1  netmask 255.0.0.0\r\n   '
+Telnet(192.168.226.133,23): recv b'     inet6 ::1  prefixlen 128  scopeid 0x10<host>\r'
+Telnet(192.168.226.133,23): recv b'\n        loop  txqueuelen 0  (Local Loopback)\r\n   '
+Telnet(192.168.226.133,23): recv b'     RX packets 38  bytes 3904 (3.8 KiB)\r\n        '
+Telnet(192.168.226.133,23): recv b'RX errors 0  dropped 0  overruns 0  frame 0\r\n     '
+Telnet(192.168.226.133,23): recv b'   TX packets 38  bytes 3904 (3.8 KiB)\r\n        TX'
+Telnet(192.168.226.133,23): recv b' errors 0  dropped 0 overruns 0  carrier 0  collis'
+Telnet(192.168.226.133,23): recv b'ions 0\r\n\r\nvirbr0: flags=4099<UP,BROADCAST,MULTICAS'
+Telnet(192.168.226.133,23): recv b'T>  mtu 1500\r\n        inet 192.168.122.1  netmask '
+Telnet(192.168.226.133,23): recv b'255.255.255.0  broadcast 192.168.122.255\r\n        '
+Telnet(192.168.226.133,23): recv b'ether 52:54:00:24:b3:22  txqueuelen 0  (Ethernet)\r'
+Telnet(192.168.226.133,23): recv b'\n        RX packets 0  bytes 0 (0.0 B)\r\n        RX'
+Telnet(192.168.226.133,23): recv b' errors 0  dropped 0  overruns 0  frame 0\r\n       '
+Telnet(192.168.226.133,23): recv b' TX packets 0  bytes 0 (0.0 B)\r\n        TX errors '
+Telnet(192.168.226.133,23): recv b'0  dropped 0 overruns 0  carrier 0  collisions 0\r\n'
+Telnet(192.168.226.133,23): recv b'\r\n[chloehsu@192 ~]$ Desktop  Documents  Downloads '
+Telnet(192.168.226.133,23): recv b' Music  Pictures\tPublic\tTemplates  Videos\r\n[chloeh'
+Telnet(192.168.226.133,23): recv b'su@192 ~]$ logout\r\n'
+Telnet(192.168.226.133,23): recv b''
+E
+======================================================================
+ERROR: test_ff_selenium_ide (__main__.FfSeleniumIde)
+ff测试用例
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\chloetest\ch_unitest\test_case\ff_selenium_ide.py", line 12, in setUp
+    self.driver = webdriver.Chrome()
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 69, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 90, in __init__
+    self.start_session(desired_capabilities, browser_profile)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 177, in start_session
+    response = self.execute(Command.NEW_SESSION, capabilities)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\chloe\AppData\Local\Programs\Python\Python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: session not created exception
+from chrome not reachable
+  (Session info: chrome=52.0.2743.116)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 10.0.14393 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 11.127s
+
+FAILED (errors=1)
