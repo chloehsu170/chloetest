@@ -1,0 +1,30 @@
+
+Last login: Sat Oct  1 19:57:40 from 192.168.226.1
+[chloehsu@192 ~]$ eno16777736: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.226.133  netmask 255.255.255.0  broadcast 192.168.226.255
+        inet6 fe80::20c:29ff:fe1f:f9b6  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:1f:f9:b6  txqueuelen 1000  (Ethernet)
+        RX packets 33337  bytes 3527645 (3.3 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10484  bytes 1561872 (1.4 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 0  (Local Loopback)
+        RX packets 38  bytes 3904 (3.8 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 38  bytes 3904 (3.8 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:24:b3:22  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[chloehsu@192 ~]$ Desktop  Documents  Downloads  Music  Pictures	Public	Templates  Videos
+[chloehsu@192 ~]$ logout
