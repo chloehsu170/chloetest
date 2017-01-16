@@ -39,7 +39,7 @@ print('中文正常显示')
 # enroll('chloe',33,interst=others['interest'],city=[])
 
 def _odd_iter():
-    n = 1
+    n = 0
     while True:
         n = n+2
         yield n
